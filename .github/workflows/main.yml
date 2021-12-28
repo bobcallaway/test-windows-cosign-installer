@@ -23,6 +23,6 @@ jobs:
       - name: Install Cosign
         uses: bobcallaway/cosign-installer@windows
         with:
-          cosign-release: 'v1.4.1'
+          cosign-release: 'v1.4.0'
       - name: Check install!
         run: cosign version
