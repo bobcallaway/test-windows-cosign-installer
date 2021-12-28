@@ -1,3 +1,7 @@
+name: test-cosign
+
+on: [push, pull_request]
+
 jobs:
   test_cosign_action:
     runs-on: windows-latest
