@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   test_cosign_action:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
 
     permissions:
       actions: none
