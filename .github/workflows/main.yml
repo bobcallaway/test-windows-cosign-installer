@@ -21,7 +21,7 @@ jobs:
     name: Install Cosign and test presence in path
     steps:
       - name: Install Cosign
-        uses: bobcallaway/cosign-installer@windows
+        uses: bobcallaway/cosign-installer@scripts
         with:
           cosign-release: 'v1.4.0'
       - name: Check install!
